@@ -1,0 +1,84 @@
+@media all and (min-width: 480px) {
+    .Login {
+      padding: 60px 0;
+    }
+  
+    .Login form {
+      margin: 0 auto;
+      max-width: 520px;
+      padding: 30px;
+    }
+  }
+
+  Form {
+    border: 3px solid #f1f1f1;
+    background-color: rgb(228, 228, 228);
+    margin: 20px;
+ }
+ .error {
+   color:#db2269;
+   font-size: 0.625em;
+   display: relative;
+ }
+ h1 {
+    text-align: center;
+ }
+ input[type="email"],
+ input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 30px;
+ }
+ label {
+    font-size: 30px;
+ }
+ form button {
+    font-weight: bold;
+    font-family: monospace, sans-serif, serif;
+    font-size: 25px;
+    background-color: #4caf50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+ }
+ button:hover {
+    opacity: 0.8;
+ }
+ .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+ }
+ .profilePic {
+    text-align: center;
+    margin: 24px 0 12px 0;
+ }
+ img.avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+ }
+ .formFields {
+    padding: 16px;
+ }
+ span.pass {
+    float: right;
+    padding-top: 16px;
+ }
+ /* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.pass {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}

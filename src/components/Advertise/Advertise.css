@@ -1,0 +1,26 @@
+.Advertise {
+    width: 240px;
+    padding: 16px;
+    text-align: center;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    margin: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.Advertise:hover,
+.Advertise:active {
+    background-color: #C0DDF5;
+}
+.Description {
+    color: green;
+}
+.Location {
+    color: maroon;
+    padding: 10px;
+}
+.CreatedBy {
+    margin: 16px 0;
+    color: rgb(19, 18, 18);
+}

@@ -1,0 +1,103 @@
+
+.Toolbar {
+  height: 75px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color:#17af87 !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  z-index: 90;
+}
+a.active {
+  background-color: #17af87 !important;
+  border-bottom: 4px solid #ea2725 !important;;
+  color: white;
+}
+.Toolbar nav {
+  height: 100%;
+}
+
+.Logo {
+  height: 80%;
+}
+
+@media (max-width: 499px) {
+  .DesktopOnly {
+      /* display: none; */
+  }
+}
+@media all and (min-width: 480px) {
+    .Login {
+      padding: 60px 0;
+    }
+  
+    .Login form {
+      margin: 0 auto;
+      max-width: 320px;
+    }
+  }
+
+  .NavigationItems {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    height: 100%;
+}
+
+@media (min-width: 500px) {
+    .NavigationItems {
+        flex-flow: row;
+    }
+    .NavigationItem a.active {
+      background-color: #17af87 !important;
+      border-bottom: 4px solid #ea2725;
+      color: white;
+  }
+}
+.NavigationItem {
+  margin: 10px 0;
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+}
+
+.NavigationItem a {
+  color: #17af87;
+  text-decoration: none;
+  width: 100%;
+  box-sizing: border-box;
+  display: block;
+}
+
+
+
+@media (min-width: 500px) {
+  .NavigationItem {
+      margin: 0;
+      display: flex;
+      height: 100%;
+      width: auto;
+      align-items: center;
+  }
+  
+  .NavigationItem a {
+      color: white;
+      height: 100%;
+      padding: 16px 10px;
+      border-bottom: 4px solid transparent;
+  }
+  .NavigationItem a:hover {
+    background-color: #17af87 !important;
+    border-bottom: 4px solid #ea2725 !important;;
+    color: white;
+}
+
+}

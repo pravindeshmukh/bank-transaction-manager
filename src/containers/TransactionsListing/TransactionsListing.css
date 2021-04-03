@@ -1,0 +1,33 @@
+.listOfAdvs {
+  /* display: flex; */
+  flex-flow: row wrap;
+  justify-content: start;
+  width: 80%;
+  margin: auto;
+}
+.listOfAdvs p {
+  display: block;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+padding: 60px 0 0 0;
+}
+.pageHeader {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  flex-flow: row wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.pageHeader  h2 {
+  padding : 10px 0 10px 10px;
+  margin: 0;
+}
+.searchInput {
+  margin: 0;
+    padding: 10px;
+    position: relative;
+    top: 13px;
+    right: 23px;
+}
